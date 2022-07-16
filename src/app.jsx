@@ -1,8 +1,10 @@
 import React from 'react';
+import OneCard from './components/card';
 
 function App() {
   return (
-    <div>Hello</div>
+    <OneCard />
+
   );
 }
 
