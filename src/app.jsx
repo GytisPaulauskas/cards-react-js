@@ -1,11 +1,12 @@
 import React from 'react';
-import OneCard from './components/card';
-import FullWidthGrid from './components/gridCards';
+import Shops from './components/shops';
+import { Grid } from '@mui/material'
+
 
 function App() {
   return (
     <>
-      <FullWidthGrid />
+      <Shops />
     </>
   );
 }

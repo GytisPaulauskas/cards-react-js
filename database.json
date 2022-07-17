@@ -1,0 +1,64 @@
+{
+  "shops": [
+    {
+      "id": "1",
+      "title": "Sweets",
+      "img": "https://imageproxy.wolt.com/wolt-frontpage-images/categories/5c83ff60-8b3c-11ec-9dcc-9ae2c5d181aa_c30619f3_f924_4e09_9507_576f49845a6a.jpg-md?w=300"
+    },
+    {
+      "id": "2",
+      "title": "Meat & fish",
+      "img": "https://imageproxy.wolt.com/wolt-frontpage-images/categories/db624ce8-477a-11ec-b661-f2ea60bfba0f_e19a3fa2_32cd_49eb_be13_008ad57496c1.jpg-md?w=300"
+    },
+    {
+      "id": "3",
+      "title": "Grocery",
+      "img": "https://imageproxy.wolt.com/wolt-frontpage-images/categories/bfd9a598-46ee-11ec-9121-0e9ac38cbb02_24769cd1_c20a_447a_812b_741ef61bffbe.webp-md?w=300"
+    },
+    {
+      "id": "4",
+      "title": "Flowers",
+      "img": "https://imageproxy.wolt.com/wolt-frontpage-images/categories/4c7b9e08-c5b7-11ea-a087-8a5eba4fdbce_04778292_1347_4802_91ed_50d71a0de773.jpg-md?w=300"
+    },
+    {
+      "id": "5",
+      "title": "Pet supplies",
+      "img": "https://imageproxy.wolt.com/wolt-frontpage-images/categories/1d44f874-46ed-11ec-830e-ca83da4845d9_945ba138_32fc_4340_a005_302a5a071655.jpg-md?w=300"
+    },
+    {
+      "id": "6",
+      "title": "Bakery",
+      "img": "https://imageproxy.wolt.com/wolt-frontpage-images/categories/a0f2c09e-dda5-11ec-9763-eec63c6f9859_fc9971f6_8def_4d06_a691_7c82418ee1bc.png-md?w=300"
+    },
+    {
+      "id": "7",
+      "title": "Bakery",
+      "img": "https://imageproxy.wolt.com/wolt-frontpage-images/categories/7c6c160a-46ef-11ec-97ba-f2ea60bfba0f_5ebcfefe_fbad_4744_945a_f91d519b6e86.jpg-md?w=300"
+    },
+    {
+      "id": "8",
+      "title": "Care and Beauty",
+      "img": "https://imageproxy.wolt.com/wolt-frontpage-images/categories/53f6ce92-4779-11ec-a22a-f2ea60bfba0f_a756f264_b55a_480c_bdc6_f8883259bc4b.jpg-md?w=300"
+    },
+    {
+      "id": "9",
+      "title": "Erotic products",
+      "img": "https://imageproxy.wolt.com/wolt-frontpage-images/categories/c6d78bac-9640-11ec-ab47-6e496db17eb1_35e67ee2_6f9c_47ed_8875_70c4dc228de9.jpg-md?w=300"
+    },
+    {
+      "id": "10",
+      "title": "Electronics",
+      "img": "https://imageproxy.wolt.com/wolt-frontpage-images/categories/ad2cdc9e-7cdb-11ec-b170-16d64d8256c1_70c85f6d_cb4f_4662_bc53_5d8729677116.jpg-md?w=600"
+    },
+    {
+      "id": "11",
+      "title": "Home & decor",
+      "img": "https://imageproxy.wolt.com/wolt-frontpage-images/categories/742ce506-477a-11ec-8775-72ecc6457299_205f5fac_f10c_4204_b988_c64e53ea315b.jpg-md?w=600"
+    },
+    {
+      "id": "12",
+      "title": "Toys & games",
+      "img": "https://imageproxy.wolt.com/wolt-frontpage-images/categories/4022c6cc-477a-11ec-8e04-16dadda4b025_8c9275db_d0a7_4225_9d5a_1e314f939648.jpg-md?w=300"
+    }
+  ]
+}
