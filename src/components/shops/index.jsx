@@ -1,6 +1,9 @@
 import React from 'react'
-import { Grid } from '@mui/material'
+import { Grid, Button, Box, Typography } from '@mui/material'
 import ShopsCard from './card';
+import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+import { display } from '@mui/system';
 
 
 const ShopsLayout = () => {
@@ -13,13 +16,32 @@ const ShopsLayout = () => {
     }, []);
 
     return (
-        <Grid container spacing={2} sx={{ py: 3, px: 2 }}>
-            {shops.map(shop => (
-                <Grid key={shops.id} item xs={12} sm={6} md={4} lg={3} xl={2}>
-                    <ShopsCard {...shop} />
-                </Grid>
-            ))}
-        </Grid>
+        <>
+            <Box sx={{
+                display: 'flex',
+                justifyContent: 'space-between',
+                py: 1,
+                px: 2
+            }}>
+                <Typography variant="h6" sx={{ fontSize: 30, }}>Stores</Typography>
+                <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
+                    <Button variant="contained" sx={{ mr: 2 }} ><ArrowBackIcon /></Button>
+                    <Button variant="contained"><ArrowForwardIcon /></Button>
+                </Box>
+            </Box>
+            <Grid container spacing={1}
+                sx={{
+                    width: '100%',
+                    py: 1,
+                    px: 1
+                }}>
+                {shops.map(shop => (
+                    <Grid key={shops.id} item xs={4} sm={3} md={2} lg={1.7} xl={1.5}>
+                        <ShopsCard {...shop} />
+                    </Grid>
+                ))}
+            </Grid>
+        </>
     );
 }
 
